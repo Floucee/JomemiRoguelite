@@ -1,5 +1,14 @@
 {
+  "homepage": "https://floucee.github.io/JomemiRoguelite",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  
   "devDependencies": {
     "gh-pages": "^6.2.0"
-  }
+  } 
 }
